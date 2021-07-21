@@ -1,0 +1,178 @@
+body {
+  font-family: 'Titillium Web', sans-serif; }
+
+.navbar {
+  background: #87509c;
+  box-shadow: 2px 2px 5px #87509c; }
+  .navbar .nav-item {
+    font-size: 16px;
+    padding-right: 20px; }
+  .navbar .nav-link:hover {
+    border-radius: 5px;
+    background: #643a79; }
+  .navbar .nav-item:last-child {
+    padding-right: 0; }
+
+#home {
+  height: 450px;
+  background: #87509c; }
+  #home h2 {
+    font-size: 41px;
+    color: #fff;
+    margin-top: 50px; }
+  #home .btn {
+    margin-top: 30px;
+    background: #eb7d4b;
+    color: #fff;
+    border-radius: 5px;
+    border-bottom: .3rem solid #c86a40; }
+
+#services {
+  color: #fff;
+  background: #17c2a4; }
+  #services #line {
+    background: #c8d9e5;
+    height: 5px;
+    width: 100px;
+    margin-left: 45%; }
+  #services h2 {
+    font-size: 40px; }
+  #services h3 {
+    font-size: 24px; }
+  #services p {
+    font-size: 18px; }
+  #services #new p {
+    font-size: 16px; }
+
+#team {
+  background: #e7f1f8;
+  color: #3c4761; }
+  #team #line {
+    background: #c8d9e5;
+    height: 5px;
+    width: 100px;
+    margin-left: 45%; }
+  #team .fa {
+    font-size: 20px; }
+  #team #circle {
+    background: #000;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%; }
+  #team h2 {
+    font-size: 40px; }
+  #team h3 {
+    font-size: 24px; }
+  #team p {
+    font-size: 18px; }
+  #team #new p {
+    font-size: 16px; }
+
+#skill {
+  color: #3c4761; }
+  #skill #line {
+    background: #dfe8ed;
+    height: 5px;
+    width: 100px;
+    margin-left: 45%; }
+  #skill h2 {
+    font-size: 40px; }
+  #skill h3 {
+    font-size: 24px; }
+  #skill p {
+    font-size: 18px; }
+  #skill .web-design circle {
+    stroke-width: 5;
+    stroke: #30bae7; }
+  #skill .web-design text {
+    fill: #3c4761; }
+  #skill .html-css circle {
+    stroke-width: 5;
+    stroke: #d74680; }
+  #skill .html-css text {
+    fill: #3c4761; }
+  #skill .graphic-design circle {
+    stroke-width: 5;
+    stroke: #15c7a8; }
+  #skill .graphic-design text {
+    fill: #3c4761; }
+  #skill .ui-ux circle {
+    stroke-width: 5;
+    stroke: #eb7d4b; }
+  #skill .ui-ux text {
+    fill: #3c4761; }
+
+#portfolio {
+  background: #ffdd99; }
+  #portfolio h2 {
+    font-size: 40px; }
+  #portfolio h4 {
+    font-size: 18px; }
+  #portfolio p {
+    font-size: 18px; }
+  #portfolio #line {
+    background: #e5c37f;
+    height: 5px;
+    width: 100px;
+    margin-left: 45%; }
+  #portfolio .btn {
+    background: #ebc985;
+    width: 80px;
+    border-radius: 5px; }
+  #portfolio img {
+    width: 100%;
+    height: auto; }
+  #portfolio #btnPortfolio {
+    background: #17c2a4;
+    height: 60PX;
+    width: 250px;
+    border-radius: 5px;
+    border-bottom: .3rem solid #14a58c; }
+
+#testimonial {
+  background: #d74680; }
+  #testimonial h2 {
+    font-size: 40px; }
+  #testimonial h3 {
+    font-size: 24px; }
+  #testimonial p {
+    font-size: 21px; }
+  #testimonial #line {
+    background: #b73c6d;
+    height: 5px;
+    width: 100px;
+    margin-left: 45%; }
+  #testimonial span {
+    color: #ffdd99;
+    font-size: 18px; }
+
+#contacts {
+  background: #3c5499; }
+  #contacts input[type="text"] {
+    color: #fff; }
+  #contacts #line {
+    height: 5px;
+    width: 100px;
+    margin-left: 45%; }
+  #contacts ::placeholder {
+    color: #fff;
+    opacity: 0.9; }
+  #contacts .form-control-lg {
+    background: #273a71;
+    border: 0px; }
+  #contacts .btn {
+    background: #30bae7;
+    border-bottom: .2rem solid #299ec5;
+    font-size: 18px; }
+
+#footer {
+  background: #344b8e;
+  font-size: 24px; }
+  #footer a:hover {
+    text-decoration: none; }
+
+@media (max-width: 667px) {
+  #home h2 {
+    font-size: 30px; }
+  #services h2 {
+    font-size: 30px; } }
